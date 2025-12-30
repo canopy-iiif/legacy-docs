@@ -3,7 +3,7 @@ module.exports = {
   changefreq: "weekly",
   priority: 0.7,
   generateIndexSitemap: false,
-  generateRobotsTxt: true, // (optional)
+  generateRobotsTxt: false, // (optional)
   sitemapSize: 5000,
   outDir: "./out",
 };
