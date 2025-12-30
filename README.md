@@ -1,4 +1,8 @@
-# Canopy IIIF Documentation
+## Documentation for deprecated version of Canopy IIIF in use 2021-2025. See https://canopy-iiif.github.io/app for current documentation.
+
+---
+
+# Canopy IIIF Documentation (deprecated)
 
 - [Docs](https://canopy-iiif.github.io/docs/)
 - [Canopy IIIF](https://github.com/canopy-iiif/canopy-iiif)
