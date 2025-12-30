@@ -8,7 +8,7 @@ import TitleComponent from "@components/TitleComponent";
 import { useRouter } from "next/router";
 
 const siteTitle = "Canopy IIIF";
-const siteUrl = "https://canopy-iiif.github.io/docs";
+const siteUrl = "https://canopy-iiif.github.io/legacy-docs";
 const siteDescription =
   "a IIIF Collection sourced site generator in Next.js for digital collections, humanities, and exhibitions";
 
@@ -23,9 +23,9 @@ const config: DocsThemeConfig = {
     return { titleTemplate };
   },
   banner: {
-    dismissible: true,
+    dismissible: false,
     key: "examples",
-    text: <Link href="/examples"> 🎉 See live examples of Canopy IIIF → </Link>,
+    text: <Link href="https://canopy-iiif.github.io/app/"> Viewing deprecated docs -- See current version 1.0.0+ here → </Link>,
   },
   head: () => {
     const { asPath, defaultLocale, locale } = useRouter();
